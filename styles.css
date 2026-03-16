@@ -1,7 +1,10 @@
+* {
+    font-family: sans-serif;
+}
+
 .hero {
     display: flex;
     background-color: #1f2937;
-    font-family: sans-serif;
     align-items: center;
     justify-content: center;
 }
@@ -11,11 +14,6 @@
     color: #f9faf8;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-}
 .hero-items {
     display: flex;
     flex-direction: column;
@@ -44,8 +42,14 @@ h1 {
 .hero-content-text {
     margin-right: 10px;
 }
+
 .lighthouse {
     height: 200px;
+    width: auto;
+}
+
+.lighthouse-2 {
+    height: 100px;
     width: auto;
 }
 
@@ -63,7 +67,36 @@ h1 {
     color: #e5e7eb;
 }
 
-p {
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-items {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 15px;
+}
+
+.information-boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.information-texts {
+    display: flex;
+    flex: auto;
+}
+
+.hero p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
