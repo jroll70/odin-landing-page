@@ -3,29 +3,38 @@
     background-color: #1f2937;
     font-family: sans-serif;
     color: aliceblue;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-items {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin: 20px;
+    max-width: 1200px;
+    margin: 15px;
 }
 
 .hero .nav {
     display: flex;
     flex-direction: row;
-    flex: 1 1 0%;
+    justify-content: space-between;
+}
+
+.hero .links {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
 
 .hero .hero-content {
     display: flex;
     flex-direction: row;
-    flex: 1 1 0%;
+    align-items: stretch;
 }
-
+.hero-content-text {
+    margin-right: 10px;
+}
 .lighthouse {
-    height: 180px;
-    width: 210px;
+    height: 200px;
+    width: auto;
 }
