@@ -89,10 +89,33 @@
 .information-boxes {
     display: flex;
     flex-direction: row;
+    flex: 1 1 0;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.information-boxes-image {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    object-position: center;
+    flex-direction: column;
+    object-position: center;
+}
+
+.information-boxes-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .information-texts {
-    display: flex;
+    width: 100%;
+    flex-grow: 0;
+    text-align: center;
+    color: gray;
+    font-size: 13px;
 }
 
 .hero p {
