@@ -7,6 +7,16 @@
     justify-content: center;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
 .hero-items {
     display: flex;
     flex-direction: column;
@@ -18,6 +28,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero .links {
@@ -37,4 +48,18 @@
 .lighthouse {
     height: 200px;
     width: auto;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    padding: 0.3rem 1rem;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.hero-button p {
+    margin: 0;
+    display: inline;
+    font-size: 18px;
+    color: #e5e7eb;
 }
