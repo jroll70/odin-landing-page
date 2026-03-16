@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    margin: 15px;
+    margin: 15px; 
 }
 
 .hero .nav {
@@ -150,6 +150,56 @@
     text-align: right;
     color: #1f2937;
     font-weight: 700;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px
+}
+
+.signup-content {
+    max-width: 1200px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.signup-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-content-button {
+    width: fit-content;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid #e5e7eb;
+    padding: .5rem 1rem;
+    justify-content: center;
+}
+
+.signup-content-button p {
+    margin: 0;
+}
+
+.footer {   
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px
+}
+
+.footer-content p {
+    color: #e5e7eb;
 }
 
 h1 {
