@@ -2,7 +2,6 @@
     display: flex;
     background-color: #1f2937;
     font-family: sans-serif;
-    color: aliceblue;
     align-items: center;
     justify-content: center;
 }
@@ -60,6 +59,11 @@ h1 {
 .hero-button p {
     margin: 0;
     display: inline;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+p {
     font-size: 18px;
     color: #e5e7eb;
 }
