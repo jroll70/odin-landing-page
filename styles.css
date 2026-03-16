@@ -80,6 +80,12 @@
     margin: 15px;
 }
 
+.information-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .information-boxes {
     display: flex;
     flex-direction: row;
@@ -87,7 +93,6 @@
 
 .information-texts {
     display: flex;
-    flex: auto;
 }
 
 .hero p {
